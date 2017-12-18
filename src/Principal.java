@@ -50,7 +50,6 @@ public class Principal {
      * Espaço O(1)
      *
      * @param A Vetor a ser ordenado
-     * @param n Quantidade de elementos do vetor
      */
     public static void bubbleSort(int A[]) {
         for (int i = 1 - 1; i <= A.length - 1 - 1; i++) {           //Theta(n)
