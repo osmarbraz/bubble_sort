@@ -46,16 +46,17 @@ public class Principal {
      * ordenado na mesma ordem em que são passados na entrada. O BubbleSort é
      * estável.
      *
-     * Complexidade O(n^2) Espaço O(1)
+     * Complexidade O(n^2) 
+     * Espaço O(1)
      *
      * @param A Vetor a ser ordenado
      * @param n Quantidade de elementos do vetor
      */
     public static void bubbleSort(int A[]) {
-        for (int i = 1 - 1; i <= A.length - 1 - 1; i++) {                 //Theta(n)
-            for (int j = A.length - 1; j >= i + 1; j--) {               //n * Theta(n)
-                if (A[j] < A[j - 1]) {                                //Theta(n)
-                    troca(A, j, j - 1);                                  //O(n)
+        for (int i = 1 - 1; i <= A.length - 1 - 1; i++) {           //Theta(n)
+            for (int j = A.length - 1; j >= i + 1; j--) {           //n * Theta(n)
+                if (A[j] < A[j - 1]) {                              //Theta(n)
+                    troca(A, j, j - 1);                             //O(n)
                 }
             }
         }
